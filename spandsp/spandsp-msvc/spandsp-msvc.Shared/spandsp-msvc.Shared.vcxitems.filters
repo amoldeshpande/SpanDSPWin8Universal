@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)targetver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\adsi.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\arctan2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\async.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\at_interpreter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\awgn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\bell_r2_mf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\bert.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\biquad.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\bit_operations.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\bitstream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\complex.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\complex_filters.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\complex_vector_float.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\complex_vector_int.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\crc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\dc_restore.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\dds.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\dtmf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\echo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\expose.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\fast_convert.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\fax.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\fax_modems.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\fir.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\fsk.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\g168models.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\g711.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\g722.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\g726.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\gsm0610.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\hdlc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\ima_adpcm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\logging.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\lpc10.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\modem_connect_tones.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\modem_echo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\noise.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\oki_adpcm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\playout.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\plc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\power_meter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\queue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\saturated.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\schedule.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\sig_tone.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\silence_gen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\super_tone_rx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\super_tone_tx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\swept_tone.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t4_rx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t4_tx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t30.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t30_api.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t30_fcf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t30_logging.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t31.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t35.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t38_core.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t38_gateway.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t38_non_ecm_buffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\t38_terminal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\telephony.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\time_scale.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\timing.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\tone_detect.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\tone_generate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v8.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v17rx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v17tx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v18.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v22bis.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v27ter_rx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v27ter_tx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v29rx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v29tx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v42.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\v42bis.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\vector_float.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\vector_int.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\spandsp\version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\time_scale.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.c">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\spandsp\version.h.in" />
+  </ItemGroup>
+</Project>

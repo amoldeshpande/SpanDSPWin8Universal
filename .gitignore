@@ -1,0 +1,15 @@
+*.lib
+*.pch
+*.obj
+*.pdb
+*.log
+*.tlog
+spandsp/spandsp-msvc/spandsp-msvc.Windows/Debug/
+spandsp/spandsp-msvc/spandsp-msvc.Windows/Release/
+spandsp/spandsp-msvc/spandsp-msvc.Windows/x64/
+spandsp/spandsp-msvc/spandsp-msvc.WindowsPhone/Debug/
+spandsp/spandsp-msvc/spandsp-msvc.WindowsPhone/Release/
+*.swp
+*.opensdf
+*.sdf
+*.suo
